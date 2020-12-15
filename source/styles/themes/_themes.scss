@@ -1,0 +1,23 @@
+/* ==============================
+PROJECT BODY STYLES
+ ================================ */
+body {
+	padding: 0;
+	margin: 0;
+	min-height: 100vh;
+	scroll-behavior: smooth;
+	text-rendering: optimizeSpeed;
+	font-size: $font-size;
+	line-height: $line-height;
+	font-family: $family;
+	color: $primary-color;
+	font-weight: 400;
+}
+.container {
+	max-width: $container-width;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}

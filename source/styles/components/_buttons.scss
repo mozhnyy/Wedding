@@ -1,0 +1,31 @@
+/* ==============================
+BUTTON STYLES
+ ================================ */
+.btn {
+	font-size: $font-size;
+	display: inline-block;
+	padding: 13px 10px;
+	cursor: pointer;
+	transition: all 0.25s ease-in-out;
+	text-decoration: none;
+	border: 1px solid transparent;
+	background-color: transparent;
+	border-radius: 5px;
+	color: #ffffff;
+	font-family: $avinit;
+	font-weight: 400;
+	text-align: center;
+	&.btn--orange {
+		background-color: #ef7f65;
+	}
+	&.btn--green {
+		background-color: #80e0dd;
+	}
+}
+
+.btn.btn--r-30 {
+	border-radius: 30px;
+}
+.btn.btn--r-10 {
+	border-radius: 10px;
+}
