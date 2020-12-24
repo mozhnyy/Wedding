@@ -2,37 +2,19 @@
 FONT FAMILY
  ================================ */
 @font-face {
-	font-family: "Avenir";
-	src: url("../fonts/Avenir/Avenir-Black.woff2") format("woff2"),
-		url("../fonts/Avenir/Avenir-Black.woff") format("woff");
-	font-weight: 900;
+	font-family: "Montserrat";
+	src: url("fonts/Montserrat/Montserrat-Medium.woff2") format("woff2"),
+		url("fonts/Montserrat/Montserrat-Medium.woff") format("woff");
+	font-weight: 500;
 	font-style: normal;
 	font-display: swap;
 }
 
 @font-face {
-	font-family: "Avenir Book";
-	src: url("../fonts/Avenir/Avenir-Book.woff2") format("woff2"),
-		url("../fonts/Avenir/Avenir-Book.woff") format("woff");
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
-}
-
-@font-face {
-	font-family: "Avenir";
-	src: url("../fonts/Avenir/Avenir-Heavy.woff2") format("woff2"),
-		url("../fonts/Avenir/Avenir-Heavy.woff") format("woff");
-	font-weight: 900;
-	font-style: normal;
-	font-display: swap;
-}
-
-@font-face {
-	font-family: "Avenir";
-	src: url("../fonts/Avenir/Avenir-Roman.woff2") format("woff2"),
-		url("../fonts/Avenir/Avenir-Roman.woff") format("woff");
-	font-weight: normal;
+	font-family: "Rosa Marena";
+	src: url("fonts/Rosa/RosaMarena.woff2") format("woff2"),
+		url("fonts/Rosa/RosaMarena.woff") format("woff");
+	font-weight: 500;
 	font-style: normal;
 	font-display: swap;
 }

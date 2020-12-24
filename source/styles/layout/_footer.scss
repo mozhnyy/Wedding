@@ -1,6 +1,18 @@
 /* ==============================
 FOOTER
  ================================ */
-footer.footer {
+.footer {
 	flex: 0 0 auto;
+	text-align: center;
+	&__img {
+		margin-bottom: 64px;
+		width: 100%;
+		@include fluid(
+			"max-width",
+			(
+				320px: 353px,
+				1200px: 1364px,
+			)
+		);
+	}
 }

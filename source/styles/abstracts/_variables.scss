@@ -1,6 +1,6 @@
 /// SIZES
-$container-width: 1190px;
-$font-size: 16px;
+$container-width: 740px;
+$font-size: 23px;
 $line-height: 24px;
 
 /// BREAKPOINTS
@@ -12,10 +12,12 @@ $xl: 1200px;
 $xxl: 1400px;
 
 /// FONT-FAMILY
-$family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI",
+$family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
 	"Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
 	"Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-$avenir: "Avenir", sans-serif;
 
 /// COLOR PALETTES
-$primary-color: #000000;
+$primary-color: #e5d6cd;
+$rosa: "Rosa Marena", -apple-system, BlinkMacSystemFont, "Segoe UI",
+	"Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+	"Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
